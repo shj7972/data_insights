@@ -12,7 +12,7 @@ def local_css(file_name):
         st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 
 # Use the local_css function to inject your custom CSS
-local_css(r".\style.css")
+#local_css(r".\style.css")
 
 # Import your app modules here
 from korean_stocks_app import run_k_stocks_app
