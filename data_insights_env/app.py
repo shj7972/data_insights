@@ -7,9 +7,9 @@ st.set_page_config(page_title='Multi-App Home', layout='wide')
 #st.set_page_config(page_title='Your App Title', layout='wide', theme={"primaryColor":"#F63366","backgroundColor":"#0E1117","secondaryBackgroundColor":"#31333F","textColor":"#FAFAFA","font":"sans serif"})
 
 # Function to read in custom CSS
-def local_css(file_name):
-    with open(file_name) as f:
-        st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
+#def local_css(file_name):
+#    with open(file_name) as f:
+#        st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 
 # Use the local_css function to inject your custom CSS
 #local_css(r".\style.css")
