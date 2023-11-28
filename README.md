@@ -1,2 +1,2 @@
 # data_insights
-App for data insights
+streamlit run app.py
